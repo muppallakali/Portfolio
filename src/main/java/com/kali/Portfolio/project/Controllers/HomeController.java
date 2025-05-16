@@ -9,22 +9,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
     @GetMapping({"/","","/home"})
     public String showHomePage(Model model){
-        model.addAttribute("title","Home");
-        return "Master";
+        model.addAttribute("title","home");
+        return "master";
     }
     @GetMapping({"/projects"})
     public String showProjectPage(Model model){
-        model.addAttribute("title","Project");
-        return "Master";
+        model.addAttribute("title","project");
+        return "master";
     }
     @GetMapping({"/resume"})
     public String showResumePage(Model model){
-        model.addAttribute("title","Resume");
-        return "Master";
+        model.addAttribute("title","resume");
+        return "master";
     }
     @GetMapping({"/contact"})
     public String showContactPage(Model model){
-        model.addAttribute("title","Contact");
-        return "Master";
+        model.addAttribute("title","contact");
+        return "master";
     }
 }

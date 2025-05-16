@@ -22,17 +22,17 @@
     <!-- Navigation-->
     <div th:insert="menu:: menu"></div>
 
-    <div th:if="${title=='Home'}">
-        <div th:insert="Home :: Home"></div>
+    <div th:if="${title=='home'}">
+        <div th:insert="home :: home"></div>
     </div>
-    <div th:if="${title=='Resume'}">
-        <div th:insert="Resume :: Resume"></div>
+    <div th:if="${title=='resume'}">
+        <div th:insert="resume :: resume"></div>
     </div>
-    <div th:if="${title=='Project'}">
-        <div th:insert="Projects :: Project"></div>
+    <div th:if="${title=='project'}">
+        <div th:insert="projects :: project"></div>
     </div>
-    <div th:if="${title=='Contact'}">
-        <div th:insert="Contact::Contact"></div>
+    <div th:if="${title=='contact'}">
+        <div th:insert="contact::contact"></div>
     </div>
 
 
