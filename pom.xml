@@ -59,6 +59,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>Spring-boot-Aws-Portfolio</finalName>
 	</build>
 
 </project>
